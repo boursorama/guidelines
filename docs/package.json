@@ -1,0 +1,19 @@
+{
+  "name": "guidelines",
+  "version": "0.0.1",
+  "description": "Guidelines for languages and frameworks used @boursorama",
+  "main": "index.js",
+  "authors": {
+    "name": "Benoit Giannangeli",
+    "email": "benoit.giannangeli@boursorama.fr"
+  },
+  "repository": "https://github.com/boursorama/guidelines/guidelines",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
