@@ -44,6 +44,10 @@ module.exports = {
       {
         text: 'Javascript',
         link: '/js/'
+      },
+      {
+        text: 'Git',
+        link: '/git/'
       }
     ],
     sidebar: {
@@ -52,6 +56,13 @@ module.exports = {
           title: 'PHP',
           collapsable: false,
           children: ['', 'phpstan']
+        }
+      ],
+      '/git/': [
+        {
+          title: 'Git',
+          collapsable: false,
+          children: ['']
         }
       ]
     }
