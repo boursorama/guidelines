@@ -1,6 +1,7 @@
 const { description } = require('../../package')
 
 module.exports = {
+  base: '/guidelines/',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -61,6 +62,13 @@ module.exports = {
       '/git/': [
         {
           title: 'Git',
+          collapsable: false,
+          children: ['']
+        }
+      ],
+      '/js/': [
+        {
+          title: 'Javascript',
           collapsable: false,
           children: ['']
         }
